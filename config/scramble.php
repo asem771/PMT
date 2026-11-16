@@ -1,6 +1,7 @@
 <?php
 return [
     'api_path' => 'api',
+    'middleware' => ['web', 'developer.access'],
     'ui' => ['title' => 'PMT — PixelMindTrainning API'],
     'info' => [
         'version' => '1.0.0',
